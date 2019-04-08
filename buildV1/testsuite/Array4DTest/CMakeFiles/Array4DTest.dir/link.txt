@@ -1,0 +1,1 @@
+/mpcdf/soft/SLE_12_SP3/packages/skylake/intel/18.0.5/bin/icpc  -O3 -xHost -ip -DNDEBUG  -rdynamic CMakeFiles/Array4DTest.dir/Array4DTest.cpp.o  -o Array4DTest 

@@ -1,0 +1,4 @@
+This could contain tests, which are too heavy to run on the virtual machine connected to gitlab.
+They would also take too long to run with each commit.
+Instead of that, submit this job on draco with 
+sbatch run_tests_draco.sh

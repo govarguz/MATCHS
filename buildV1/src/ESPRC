@@ -1,0 +1,16 @@
+# This is a convenience script to determine which
+# type of shell you have 
+
+# only csh/tcsh understand 'set'
+set is_csh = 123
+test "$is_csh" = 123 && goto CSH
+
+export PYTHONPATH="/usr/local/lib/python2.7/site-packages${PYTHONPATH:+:}${PYTHONPATH}"
+return
+
+CSH:
+if ($?PYTHONPATH) then
+  setenv PYTHONPATH "/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
+else
+  setenv PYTHONPATH "/usr/local/lib/python2.7/site-packages"
+endif
