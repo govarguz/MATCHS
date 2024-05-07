@@ -1,5 +1,5 @@
-ESPResSo++
-==========
+MATCHS in E++
+==============
 
 ESPResSo++ is an extensible, flexible, fast and parallel simulation software for
 soft matter research. It is a highly versatile software package for the
